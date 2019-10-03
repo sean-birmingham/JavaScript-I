@@ -103,7 +103,7 @@ const parent = {
     name: 'George',
     age: 50,
     speak: function() {
-      console.log(`I am ${this.age} years old.`);
+      console.log(`Hello, my name is ${this.name}!`);
     },
     grandchild: {
       name: 'Sam',
